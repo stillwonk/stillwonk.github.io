@@ -1,0 +1,29 @@
+.social-share .share-button {
+  color: #000 !important;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #fd4e8b, #fd8262);
+  width: 31px;
+  height: 31px;
+  border-radius: 3px;
+  justify-content: center;
+  margin-right: 25px;
+  border-bottom: none;
+}
+.social-share .share-button:last-child {
+  margin-right: 0;
+}
+.social-share.aligncenter {
+  text-align: center;
+}
+.social-share.aligncenter .share-icons {
+  justify-content: center;
+}
+.social-share .share-icons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=socialShare.css.map */

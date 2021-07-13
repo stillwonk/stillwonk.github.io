@@ -1,0 +1,182 @@
+/*
+  Theme variables based on design
+*/
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&amp;display=swap");
+/*
+  Keyframe animations
+ */
+@-webkit-keyframes ripple-hover {
+  to {
+    opacity: 0;
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes goUpLittleBit {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes goUp {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes goRight {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes subMenuItem {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.products-header {
+  display: flex;
+  flex-direction: column;
+}
+.products-header__top {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.products-header__top__title {
+  font-family: "Anodina", sans-serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: -0.17px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.products-header__top__text {
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.05px;
+  text-align: center;
+  color: #ffffff;
+}
+.products-header__products {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.products-header__products__product {
+  width: calc(50% - 35px);
+  border-radius: 29px;
+  box-shadow: 20px 21px 60px 0 rgba(117, 0, 195, 0.7);
+  background-image: linear-gradient(157deg, rgba(26, 17, 31, 0) 10%, rgba(4, 0, 12, 0.9) 76%);
+  padding: 40px;
+}
+.products-header__products__product__image-container {
+  position: relative;
+  top: -120px;
+}
+.products-header__products__product__image-container__background {
+  position: absolute;
+  bottom: 15px;
+  height: calc(100% - 55px);
+  right: -15px;
+  object-fit: contain;
+}
+.products-header__products__product__image-container__image {
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+}
+.products-header__products__product__info {
+  margin-top: -100px;
+  display: flex;
+  flex-direction: row;
+}
+.products-header__products__product__info__col:first-of-type {
+  margin-right: 40px;
+}
+.products-header__products__product__info__col:last-of-type {
+  margin-top: 5px;
+}
+.products-header__products__product__info__col h3 {
+  font-family: "Anodina", sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.products-header__products__product__info__col h4 {
+  font-family: "Anodina", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: -0.05px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.products-header__products__product__info__col div, .products-header__products__product__info__col p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.05px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1240px) {
+  .products-header__products {
+    flex-direction: column;
+  }
+  .products-header__products .products-header__products__product {
+    max-width: 100%;
+    width: 605px;
+    margin: 0 auto;
+  }
+  .products-header__products .products-header__products__product:last-of-type {
+    margin-top: 120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .products-header__products .products-header__products__product__info {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=productsHeader.css.map */

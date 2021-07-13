@@ -1,0 +1,91 @@
+.time-line {
+  padding: 60px 60px;
+  border-radius: 26px;
+  background: linear-gradient(rgba(26, 17, 31, 0) 0%, rgba(4, 0, 12, 0.9) 100%);
+  box-shadow: 20px 8px 60px rgba(117, 0, 195, 0.69);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.time-line .time-elements {
+  width: calc(50% - 50px);
+  position: relative;
+  min-width: 450px;
+}
+.time-line .time-elements:before {
+  content: "";
+  background-image: url("dots-timeline.html");
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 400px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.time-line .time-block-content {
+  display: flex;
+  align-items: center;
+  width: calc(50% - 50px);
+}
+.time-line .time-block-content h2 {
+  color: #fff;
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+.time-line .time-item {
+  padding: 20px 25px;
+  width: calc(100% - 50px);
+  border-radius: 26px;
+  background: linear-gradient(155deg, rgba(26, 17, 31, 0) 11%, rgba(4, 0, 12, 0.9) 74%);
+  box-shadow: 20px 8px 60px rgba(117, 0, 195, 0.69);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+.time-line .time-item p {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 25px;
+  width: 165px;
+  margin-bottom: 0;
+}
+.time-line .time-item ul {
+  list-style-type: none;
+  padding: 0 0;
+}
+.time-line .time-item ul li {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 15px;
+}
+.time-line .time-item ul li:first-child {
+  margin-top: 0;
+}
+.time-line .time-arrow {
+  margin: 10px 0px;
+  display: block;
+  text-align: center;
+  width: calc(100% - 50px);
+}
+
+@media only screen and (max-width: 1045px) {
+  .time-line .time-elements {
+    order: 2;
+    width: 100%;
+    min-width: 100%;
+  }
+  .time-line .time-elements .time-item, .time-line .time-elements .time-arrow {
+    width: calc( 100% - 5% );
+    margin: 0 auto;
+  }
+  .time-line .time-block-content {
+    order: 1;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=timeLine.css.map */

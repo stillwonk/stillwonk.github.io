@@ -1,0 +1,277 @@
+/*
+  Theme variables based on design
+*/
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&amp;display=swap");
+/*
+  Keyframe animations
+ */
+@-webkit-keyframes ripple-hover {
+  to {
+    opacity: 0;
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes goUpLittleBit {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes goUp {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes goRight {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes subMenuItem {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.table-columns__inner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 36px 45px 31px 37px;
+  border-radius: 26px;
+  box-shadow: 20px 8px 60px 0 rgba(117, 0, 195, 0.7);
+  background-image: linear-gradient(142deg, rgba(26, 17, 31, 0) 16%, rgba(4, 0, 12, 0.9) 60%);
+  min-height: 405px;
+}
+.table-columns__inner__background {
+  position: absolute;
+  top: 36px;
+  left: 82px;
+  width: calc(100% - 150px);
+  height: calc(100% - 70px);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: repeat;
+}
+.table-columns__inner .more-info {
+  z-index: 99;
+}
+.table-columns__inner .more-info img {
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out;
+}
+.table-columns__inner .more-info img:hover {
+  transform: scale(1.1) rotateZ(15deg);
+}
+.table-columns__inner__title {
+  position: relative;
+}
+.table-columns__inner__title h2 {
+  font-family: "Anodina", sans-serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  margin: 40px 0;
+}
+.table-columns__inner__columns {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% + 40px);
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: relative;
+}
+.table-columns__inner__columns__column {
+  min-width: 370px;
+  width: calc(33.3334% - 40px);
+  margin-right: 40px;
+  flex: 1;
+}
+.table-columns__inner__columns__column__table {
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 20px 8px 60px 0 rgba(117, 0, 195, 0.7);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.table-columns__inner__columns__column__table thead {
+  position: relative;
+  display: block;
+}
+.table-columns__inner__columns__column__table thead tr {
+  display: block;
+  width: 100%;
+  background-image: linear-gradient(119deg, rgba(26, 17, 31, 0) 21%, rgba(4, 0, 12, 0.9) 49%);
+}
+.table-columns__inner__columns__column__table thead tr th {
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 25px;
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.05px;
+  color: #ffffff;
+  padding: 0 20px;
+  box-shadow: 0 25px 0 12px #ffffff;
+}
+.table-columns__inner__columns__column__table thead tr th p {
+  margin-bottom: 0;
+}
+.table-columns__inner__columns__column__table tbody {
+  position: relative;
+  display: block;
+  background-color: #ffffff;
+  background: #ffffff;
+}
+.table-columns__inner__columns__column__table tbody:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  width: 20px;
+  bottom: 0;
+  background-color: #ffffff;
+  background: #ffffff;
+  z-index: 1;
+}
+.table-columns__inner__columns__column__table tbody:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  right: 0;
+  width: 20px;
+  bottom: 0;
+  background-color: #ffffff;
+  background: #ffffff;
+  z-index: 1;
+}
+.table-columns__inner__columns__column__table tbody tr {
+  width: 100%;
+}
+.table-columns__inner__columns__column__table tbody tr td {
+  position: relative;
+  padding: 0 20px;
+  height: 56px;
+}
+.table-columns__inner__columns__column__table tbody tr td:first-of-type:after {
+  content: "";
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.table-columns__inner__columns__column__table tbody tr td:last-of-type {
+  width: 100%;
+}
+.table-columns__inner__columns__column__table tbody tr td:last-of-type img {
+  margin-left: auto;
+  display: block;
+}
+.table-columns__inner__columns__column__table tbody tr td p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.81;
+  letter-spacing: normal;
+  color: #2c2c2c;
+  margin-bottom: 0;
+  height: 0px;
+  overflow: visible;
+  position: relative;
+  top: -12.5px;
+  white-space: nowrap;
+}
+
+.more-info-content {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  max-width: 100%;
+  width: 600px;
+  left: -100%;
+  top: -100%;
+  z-index: 99;
+  border-radius: 26px;
+  padding: 20px;
+  padding-top: 40px;
+  box-shadow: 20px 8px 60px 0 rgba(117, 0, 195, 0.7);
+  background-image: linear-gradient(110deg, #fefefe, #eff1f6);
+  transition: opacity 0.3s ease-in-out;
+}
+.more-info-content.show {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: initial;
+}
+.more-info-content h4 {
+  font-family: "Anodina", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3;
+  letter-spacing: -0.06px;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+.more-info-content a {
+  color: #2c2c2c !important;
+  border-color: #2c2c2c !important;
+}
+.more-info-content div, .more-info-content p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.05px;
+  color: #2c2c2c;
+}
+
+/*# sourceMappingURL=tableColumns.css.map */

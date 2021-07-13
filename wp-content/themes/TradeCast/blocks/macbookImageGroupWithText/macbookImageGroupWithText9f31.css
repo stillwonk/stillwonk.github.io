@@ -1,0 +1,229 @@
+/*
+  Theme variables based on design
+*/
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&amp;display=swap");
+/*
+  Keyframe animations
+ */
+@-webkit-keyframes ripple-hover {
+  to {
+    opacity: 0;
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes goUpLittleBit {
+  from {
+    transform: translate3d(0, 100px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes goUp {
+  from {
+    transform: translate3d(0, 200px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes goRight {
+  from {
+    transform: translate3d(-200px, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes subMenuItem {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.macbook-image-group-with-text.animate-in .macbook-image-group-with-text__inner__images-container__macbook {
+  animation: goUp 0.5s ease-in-out forwards, fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.macbook-image-group-with-text.animate-in .macbook-image-group-with-text__inner__images-container__macbook-image {
+  animation: goUp 0.5s ease-in-out forwards, fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.macbook-image-group-with-text.animate-in .macbook-image-group-with-text__inner__images-container__image-left {
+  animation: goUp 0.5s ease-in-out forwards, fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 0.75s;
+}
+.macbook-image-group-with-text.animate-in .macbook-image-group-with-text__inner__images-container__image-right {
+  animation: goUp 0.5s ease-in-out forwards, fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
+.macbook-image-group-with-text__inner {
+  border-radius: 26px;
+  padding: 40px;
+  box-shadow: 20px 8px 60px 0 rgba(117, 0, 195, 0.7);
+  background-image: linear-gradient(153deg, rgba(26, 17, 31, 0) 12%, rgba(4, 0, 12, 0.9) 71%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 80px);
+  margin-left: auto;
+}
+.macbook-image-group-with-text__inner__images-container {
+  position: relative;
+  margin-left: -200px;
+}
+.macbook-image-group-with-text__inner__images-container__macbook {
+  margin-top: 70px;
+  opacity: 0;
+}
+.macbook-image-group-with-text__inner__images-container__macbook-image {
+  position: absolute;
+  top: 97px;
+  left: 130px;
+  width: 503px;
+  height: 314px;
+  object-fit: cover;
+  opacity: 0;
+}
+.macbook-image-group-with-text__inner__images-container__image-left {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: 156px;
+  object-fit: cover;
+  opacity: 0;
+}
+.macbook-image-group-with-text__inner__images-container__image-right {
+  position: absolute;
+  width: 293px;
+  height: 190px;
+  object-fit: cover;
+  top: 20px;
+  right: 20px;
+  /*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);*/
+  opacity: 0;
+}
+.macbook-image-group-with-text__inner__text-container {
+  width: 100%;
+}
+.macbook-image-group-with-text__inner__text-container h3 {
+  font-family: "Anodina", sans-serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.macbook-image-group-with-text__inner__text-container div, .macbook-image-group-with-text__inner__text-container p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: -0.05px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1240px) {
+  .macbook-image-group-with-text {
+    margin-top: 175px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner {
+    flex-direction: column;
+    position: relative;
+    padding-top: 300px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container {
+    margin: 0 auto;
+    position: absolute;
+    top: -200px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner {
+    width: 100%;
+    padding-top: 200px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__macbook {
+    width: 576px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__macbook-image {
+    top: 89px;
+    left: 98px;
+    width: 377.25px;
+    height: 235.5px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__image-left {
+    width: 112.5px;
+    height: 112.5px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__image-right {
+    width: 219.75px;
+    height: 142.5px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner {
+    padding-top: 100px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__macbook {
+    width: 432px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__macbook-image {
+    width: 282.9375px;
+    height: 176.625px;
+    top: 85px;
+    left: 74px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__image-left {
+    width: 84.375px;
+    height: 84.375px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__image-right {
+    width: 164.8125px;
+    height: 106.875px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner {
+    padding-top: 50px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__macbook {
+    width: 324px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__macbook-image {
+    width: 212.203125px;
+    height: 132.46875px;
+    top: 82px;
+    left: 55px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__image-left {
+    width: 63.28125px;
+    height: 63.28125px;
+  }
+  .macbook-image-group-with-text .macbook-image-group-with-text__inner__images-container__image-right {
+    width: 123.609375px;
+    height: 80.15625px;
+  }
+}
+
+/*# sourceMappingURL=macbookImageGroupWithText.css.map */

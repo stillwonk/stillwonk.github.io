@@ -1,0 +1,173 @@
+/*
+  Theme variables based on design
+*/
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&amp;display=swap");
+/*
+  Keyframe animations
+ */
+@-webkit-keyframes ripple-hover {
+  to {
+    opacity: 0;
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes goUpLittleBit {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes goUp {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes goRight {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes subMenuItem {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.contact {
+  display: flex;
+  position: relative;
+  padding: 0;
+}
+.contact form {
+  max-width: 100% !important;
+}
+.contact form input[type=submit] {
+  min-width: 172px;
+}
+.contact__content-container {
+  width: 100%;
+  border-radius: 29px;
+  box-shadow: 20px 21px 60px 0 rgba(117, 0, 195, 0.7);
+  background-image: linear-gradient(150deg, rgba(26, 17, 31, 0) 13%, rgba(4, 0, 12, 0.9) 68%);
+  padding: 80px 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.contact__content-container__title {
+  width: 500px;
+  font-family: "Anodina", sans-serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.contact__content-container__subtitle {
+  width: 500px;
+  font-family: "Anodina", sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.contact__content-container__text {
+  width: 500px;
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.05px;
+  color: #ffffff;
+}
+.contact__form-container {
+  position: relative;
+  padding: 50px 70px 30px 70px;
+  top: -40px;
+  margin-left: auto;
+  width: 45%;
+  border-radius: 29px;
+  box-shadow: 20px 21px 60px 0 rgba(117, 0, 195, 0.7);
+  background-image: linear-gradient(169deg, rgba(26, 17, 31, 0) 3%, rgba(4, 0, 12, 0.9) 92%);
+}
+.contact__form-container .gform_title {
+  display: none;
+}
+@media only screen and (max-width: 1240px) {
+  .contact .contact__content-container__title, .contact .contact__content-container__subtitle, .contact .contact__content-container__text {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact .contact__content-container__title, .contact .contact__content-container__subtitle, .contact .contact__content-container__text {
+    width: 100%;
+  }
+  .contact .contact__content-container {
+    position: relative;
+  }
+  .contact .contact__form-container {
+    width: 66.6667%;
+    top: -60px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .contact .contact__form-container {
+    top: -60px;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contact .contact__content-container {
+    padding: 40px 60px;
+  }
+  .contact .contact__form-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contact .contact__content-container {
+    padding: 20px 30px;
+  }
+  .contact .contact__form-container {
+    width: 100%;
+    padding: 20px 30px;
+    padding-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

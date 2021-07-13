@@ -1,0 +1,560 @@
+<!DOCTYPE html lang="en-GB">
+<html>
+
+<!-- Mirrored from tradecast.tv/en/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Jul 2021 11:06:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="description" content="Workshop by Kashish Sharma, Microsoft Learn Student Ambassador">
+	<link rel="shortcut icon" href="../wp-content/uploads/2021/05/alpha.png" type="image/x-icon">
+	<link rel="icon" href="../wp-content/uploads/2021/05/alpha.png" type="image/x-icon">
+	<title>Microsoft Workshop Series | Kashish Sharma</title>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="../index.html" hreflang="nl" />
+<link rel="alternate" href="index.html" hreflang="en" />
+
+
+
+
+
+		<style>
+			html {
+				scroll-behavior: smooth !important;
+			}
+					::-webkit-scrollbar {
+			background-color: transparent;
+			color: transparent;
+			width: 5px;
+		}
+		::-webkit-scrollbar-track {
+			background-color: transparent;
+			width: 0px;
+		}
+		::-webkit-scrollbar-button {
+			background-color: transparent;
+		}
+		
+		::-webkit-scrollbar-thumb {
+			border-radius: 20px;
+			width: 10px;
+			background-color: grey;
+		}
+		::-webkit-scrollbar-corner {
+			background-color: transparent;
+		}
+
+
+		</style>
+		<style type="text/css">
+
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='../wp-includes/css/dist/block-library/style.min9f31.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='../wp-includes/css/dist/block-library/theme.min9f31.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='anodina-font-styling-css'  href='../wp-content/themes/TradeCast/assets/fonts/Anodina/stylesheet.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-styling-css'  href='../wp-content/themes/TradeCast/assets/styles/css/main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-styling-css'  href='../wp-content/themes/TradeCast/assets/styles/css/slick.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css'  href='../wp-content/plugins/gravityforms/legacy/css/formreset.min2a47.css?ver=2.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='../wp-content/plugins/gravityforms/legacy/css/formsmain.min2a47.css?ver=2.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='../wp-content/plugins/gravityforms/legacy/css/readyclass.min2a47.css?ver=2.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='../wp-content/plugins/gravityforms/legacy/css/browsers.min2a47.css?ver=2.5.6' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' defer='defer' src='../wp-content/plugins/gravityforms/js/jquery.json.min2a47.js?ver=2.5.6' id='gform_json-js'></script>
+<script type='text/javascript' id='gform_gravityforms-js-extra'>
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"}}};
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2},"base_url":"https:\/\/tradecast.tv\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/tradecast.tv\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_legacy_multi = {"1":"1"};
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2},"base_url":"https:\/\/tradecast.tv\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/tradecast.tv\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_legacy_multi = {"1":"1","2":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='gform_gravityforms-js-before'>
+if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}}
+</script>
+<script type='text/javascript' defer='defer' src='../wp-content/plugins/gravityforms/js/gravityforms.min2a47.js?ver=2.5.6' id='gform_gravityforms-js'></script>
+<script type='text/javascript' defer='defer' src='../../www.google.com/recaptcha/api1865.js?hl=en&amp;ver=5.7.2#038;render=explicit' id='gform_recaptcha-js'></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/2589.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel='shortlink' href='../index.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embedb288.json?url=https%3A%2F%2Ftradecast.tv%2Fen%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embede139?url=https%3A%2F%2Ftradecast.tv%2Fen%2F&amp;format=xml" />
+		<style type="text/css" id="wp-custom-css">
+			span.has-inline-color.has-black-color {
+	text-decoration: underline;
+}
+
+.header-developer .hero-buttons {
+	visibility: hidden;
+}
+
+/*.header-content .hero-buttons {
+	visibility: hidden;
+}*/		</style>
+<script src="js.js"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+		</head>
+<body class="home page-template-default page page-id-2589 page-tradecast-start-your-own-video-platform">
+	<div class="progress-container">
+		<div class="progress-bar" id="myBar"></div>
+	  </div>
+
+<!-- End Google Tag Manager (noscript) -->
+<header role="banner" id="header">
+	<div class="container">
+		<a class="logo" href="index.html" title="">
+			<img src="../wp-content/uploads/2021/05/alpha.png" style="height: 50px !important;width: 50px !important;" alt="" />
+		</a>
+		<div class="menu-wrap">
+			<nav role="navigation" style="height: 100%;">
+				
+				<div class="menu-primary-menu-en-container"></div>			</nav>
+				<p style="margin: auto 0;">Registrations are open</p>
+			<div class="cta">
+											<a class="btn" href="https://rzp.io/l/rEPEyNA6m">Register Now</a>
+									</div>
+					</div>
+
+		<div id="menu-btn-wrap">
+			<div id="menu-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="page-wrap page-wrap-tradecast-start-your-own-video-platform">
+		
+
+<div class="block home-hero home-hero alignfull" id="home-hero-block_608fc9a0d84bc">
+	<!-- Background elements -->
+				<div class="hero-video">
+			<video src="../wp-content/uploads/2021/05/Introducing Windows 11_Trim.mp4" muted autoplay loop></video>
+		</div>
+		<div class="hero-image-gradient"></div>
+	<div class="hero-dots"></div>
+	<!-- Content elements -->
+	<div class="hero-wrap">
+		<div class="container">
+			<div class="hero-inner parallax" data-parallax-speed="-150">
+				<h1 class="hero-title" data-animation="titleIn">Microsoft Ambassador's Workshop Series </h1>
+				<p>By Kashish</p>
+				<div class="hero-buttons">
+											<a class="btn anchor" href="#homepage-video">Ready to Join?</a>
+																
+									</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="block video-logo-slider video-logo-slider alignwide" id="homepage-video">
+
+    <!-- Video -->
+    <div class="video-logo-slider__video-container parallax" data-parallax-speed="-250">
+        <img class="dotted-background parallax" src="../wp-content/themes/TradeCast/assets/images/dots-01.png" alt="dotted background" />
+        <div class="iframe-container">
+            <iframe loading="lazy" class="none" src="about:blank" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+                                    <div class="iframe-container__preview" data-video="../wp-content/uploads/2021/05/Introducing Windows 11_Trim.mp4">
+                            <img class="iframe-container__preview__image" src="../wp-content/uploads/2021/05/Ambassador's Workshop Series-2.png" alt="video thumbnail" />
+                            <a class="iframe-container__preview__button btn play"></a>
+                        </div>
+                            </div>
+    </div>
+
+    <!-- Text -->
+    <div class="video-logo-slider__text-container parallax" data-parallax-speed="-150">
+        <h3 class="video-logo-slider__text-container__title block-title">Ready to Join? Register Now!</h3>
+        <div class="video-logo-slider__text-container__content block-content"><p>Workshop Series are packed with a lot of amazing skill building technologies which students of all domains must know. Join in the workshops and get into the world of digitalisation.</p>
+			<a class="btn" href="https://rzp.io/l/rEPEyNA6m">Register Now</a>
+</div>
+
+
+        <!-- Icons slider -->
+                    <div class="video-logo-slider__icons-container">
+                                            <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/powerapps.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/visualstudio.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/teams.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/azure.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/virtualagent.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/html5.svg" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/css3.svg" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/sharepoint.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/stream.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/onedrive.png" style="height: 45px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/microsoft.png" style="height: 50px !important;" alt="icoon" />
+                                                    <img class="video-logo-slider__icons-container__icon" src="../wp-content/uploads/2021/05/office.png" style="height: 50px !important;" alt="icoon" />
+
+                                    </div>
+            </div>
+</div>
+
+
+
+
+<div class="block text-columns-with-video text-columns-with-video alignwide" id="text-columns-with-video-block_609d1293fbfae">
+
+	<div class="text-columns-with-video__inner parallax" data-parallax-speed="-150">
+	
+		<!-- Text -->
+		<div class="text-columns-with-video__inner__text-container">
+			<h3 class="text-columns-with-video__inner__text-container__title block-title">WHATS THERE FOR YOU?</h3>
+			
+									
+							</div>
+
+		<!-- Video and columns -->
+		<div class="text-columns-with-video__inner__video-and-columns-container">
+
+			<!-- Video -->
+			<div class="text-columns-with-video__inner__video-and-columns-container__video-container parallax" data-parallax-speed="-100">
+				<img class="dotted-background parallax" src="../wp-content/themes/TradeCast/assets/images/dots-02.png" alt="dotted background" />
+				<div class="iframe-container">
+													<div class="iframe-container__preview opensPopup">
+									<video src="../wp-content/uploads/2021/05/whatsthere.mp4" width="960" height="540" autoplay muted video autobuffer loop></video>
+									<a class="iframe-container__preview__button btn play"></a>
+								</div>
+											</div>
+			</div>
+
+			<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container">
+											<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container__column">
+								<h4>Microsoft Certifications</h4>
+								<div><p>Upon completion of the workshop, participants will be recieving certification from MICROSOFT Learn.</p>
+</div>
+							</div>
+														<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container__column">
+								<h4>Additional resources to topics</h4>
+								<div><p>Participants would be able to their hands on additional resources like course material for the workshop.</p>
+</div>
+							</div>
+														<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container__column">
+								<h4>Free Goodies</h4>
+								<div><p>Swags will be provided to the winners of the quiz rounds of the workshop.</p>
+</div>
+							</div>
+										</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="block text-columns-with-video text-columns-with-video alignwide" id="text-columns-with-video-block_609d134dfbfb2">
+
+	<div class="text-columns-with-video__inner parallax" data-parallax-speed="-150">
+	
+		<!-- Text -->
+		<div class="text-columns-with-video__inner__text-container">
+			<h3 class="text-columns-with-video__inner__text-container__title block-title">What we often get asked?</h3>
+			<div class="text-columns-with-video__inner__text-container__content block-content"><p>Frequently Asked Question</p>
+</div>
+
+							</div>
+
+		<!-- Video and columns -->
+		<div class="text-columns-with-video__inner__video-and-columns-container">
+
+			<!-- Video -->
+			<div class="text-columns-with-video__inner__video-and-columns-container__video-container parallax" data-parallax-speed="-100">
+				<img class="dotted-background parallax" src="../wp-content/themes/TradeCast/assets/images/dots-02.png" alt="dotted background" />
+				<div class="iframe-container">
+													<div class="iframe-container__preview opensPopup" >
+									<img src="../wp-content/uploads/2021/05/faq.png" class="responsive" style="border-radius: 30px;" width="100%" height="auto"  autoplay muted video autobuffer loop ></video>
+									
+								</div>
+											</div>
+			</div>
+
+			<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container">
+											<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container__column">
+								<h4>How many workshops can I register for?</h4>
+								<div><p>There is no restriction to the number of workshops you can register for.</p>
+</div>
+							</div>
+														<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container__column">
+								<h4>Are there any skills required before registering for the workshop?</h4>
+								<div><p>No. The workshops will be covering topics from the very basics.</p>
+</div>
+							</div>
+														<div class="text-columns-with-video__inner__video-and-columns-container__text-columns-container__column">
+								<h4>How will I recieve my Microsoft certificate?</h4>
+								<div><p>Your Microsoft Certificates will sent to you via emails upon completion of workshop.</p>
+</div>
+							</div>
+
+										</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="block posts-slider posts-slider alignfull" id="posts-slider-block_609d1449fbfb4">
+	<div class="posts-slider__slider-container parallax" data-title="" data-parallax-speed="-150">
+							<!-- Slide -->
+					<div class="posts-slider__slider-container__slide parallax" data-parallax-speed="-100">
+						<!-- Video -->
+						<div class="iframe-container">
+							<iframe loading="lazy" class="none" src="about:blank" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+																	<div class="iframe-container__preview" data-video="../wp-content/uploads/2021/05/Introducing Windows 11_Trim.mp4">
+											<img class="iframe-container__preview__image" src="../wp-content/uploads/2021/05/Ambassador's Workshop Series-2.png" alt="video thumbnail" />
+											<a class="iframe-container__preview__button btn play"></a>
+										</div>
+															</div>
+
+						<!-- Content -->
+						<div class="content-container">
+							<h3>Ambassador's Workshop Series</h3>
+																	<div>Kashish Sharma</div>
+															</div>
+					</div>
+									<!-- Slide -->
+					<div class="posts-slider__slider-container__slide parallax" data-parallax-speed="-100">
+						<!-- Video -->
+						<div class="iframe-container">
+							<iframe loading="lazy" class="none" src="about:blank" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+																	<div class="iframe-container__preview">
+											<img class="iframe-container__preview__image" src="../wp-content/uploads/2021/05/learn.png" alt="video thumbnail" />
+											
+										</div>
+															</div>
+
+						<!-- Content -->
+						<div class="content-container">
+							<h3>Learn to Prototype you Ideas</h3>
+																	<div>Workshop</div>
+															</div>
+					</div>
+									<!-- Slide -->
+					<div class="posts-slider__slider-container__slide parallax" data-parallax-speed="-100">
+						<!-- Video -->
+						<div class="iframe-container">
+							<iframe loading="lazy" class="none" src="about:blank" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+																	<div class="iframe-container__preview" >
+											<img class="iframe-container__preview__image" src="../wp-content/uploads/2021/05/Innovate.png" alt="video thumbnail" />
+											
+										</div>
+															</div>
+
+						<!-- Content -->
+						<div class="content-container">
+							<h3>Fuel up your brain cells to Innovate</h3>
+																	<div>Workshop</div>
+															</div>
+					</div>
+									<!-- Slide -->
+					<div class="posts-slider__slider-container__slide parallax" data-parallax-speed="-100">
+						<!-- Video -->
+						<div class="iframe-container">
+							<iframe loading="lazy" class="none" src="about:blank" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+																	<div class="iframe-container__preview" >
+											<img class="iframe-container__preview__image" src="../wp-content/uploads/2021/05/certification.png" alt="video thumbnail" />
+											
+										</div>
+															</div>
+
+						<!-- Content -->
+						<div class="content-container">
+							<h3>Earn Microsoft Certifications</h3>
+																	<div>Workshop</div>
+															</div>
+					</div>
+									<!-- Slide -->
+					<div class="posts-slider__slider-container__slide parallax" data-parallax-speed="-100">
+						<!-- Video -->
+						<div class="iframe-container">
+							<iframe loading="lazy" class="none" src="about:blank" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+																	<div class="iframe-container__preview" >
+											<img class="iframe-container__preview__image" src="../wp-content/uploads/2021/05/buildupskills.png" alt="video thumbnail" />
+											
+										</div>
+															</div>
+
+						<!-- Content -->
+						<div class="content-container">
+							<h3>Build up Skills</h3>
+																	<div>Workshop</div>
+															</div>
+					</div>
+					</div>
+</div>
+
+
+
+
+<div class="block call-to-action call-to-action alignwide" id="call-to-action-block_609d2768a31d1">
+
+	<!-- Background -->
+	<img class="call-to-action__background parallax" data-parallax-speed="-100" src="../wp-content/uploads/2021/05/register.png" alt="Call to action achtergrond" />
+	
+	<!-- Content -->
+	<div class="call-to-action__content parallax" style="z-index: 1;" data-parallax-speed="-150">
+		<h3 class="call-to-action__content__title">Interested?</h3>
+
+		
+							
+		<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HVFQGghpXhAoOW" async> </script> </form>
+							
+							
+					</div>
+</div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+
+<footer>
+	<div class="container">
+	
+		<span class="line"></span>
+		<div class="footer-content">
+			<div class="footer-top">
+				<a class="footer-logo" href="index.html">
+					<img src="../wp-content/uploads/2021/05/alpha.png" alt="" />
+				</a>
+						</div>
+							<div class="adress" style="animation-delay: 0s">
+				</div>
+										<div class="adress" style="animation-delay: .1s">
+				</div>
+										<div class="adress" style="animation-delay: .2s">
+					<p><strong>Contacts Us</strong><br /><br>
+
+8755999825<br /><br>
+Kashish6011@gmail.com</p>
+				</div>
+						<div class="footer-menu" style="animation-delay: .3s">
+				<div class="menu-footer-menu-1-en-container">
+			<div class="footer-menu info-menu" style="animation-delay: .4s">
+				<div class="menu-footer-menu-2-en-container"><ul id="menu-footer-menu-2-en" class="menu"><li id="menu-item-1431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1431"><a target="_blank" href="../wp-content/uploads/2021/05/Privacy.pdf">Privacy policy</a></li>
+<li id="menu-item-1032" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1032"><a target="_blank" href="../wp-content/uploads/2021/05/Refund Policy.pdf">Refund Policy</a></li>
+<li id="menu-item-1306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1306"><a target="_blank" href="../wp-content/uploads/2021/05/Terms and conditions.pdf">Terms &amp; conditions</a></li>
+</ul></div>
+			</div>
+			<br>
+			<div class="socials" style="animation-delay: .5s">
+									<a class="social-icon" target="_blank" href="https://www.linkedin.com/in/kashishsharma601/">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17.792" height="18.429" viewBox="0 0 17.792 18.429">
+						<g id="Group_1" data-name="Group 1" transform="translate(6773.958 5068.762)">
+							<path id="Path" d="M3.5,12.833H0V0H3.5Z" transform="translate(-6773.667 -5063.167)" fill="#fff" />
+							<path id="Path-2" data-name="Path"
+										d="M2.042,4.116A2.058,2.058,0,1,1,4.083,2.058,2.05,2.05,0,0,1,2.042,4.116Z"
+										transform="translate(-6773.958 -5068.762)" fill="#fff" />
+							<path id="Path-3" data-name="Path"
+										d="M11.667,12.834h-3.5V6.3c0-3.929-4.667-3.632-4.667,0v6.538H0V0H3.5V2.06c1.63-3.017,8.167-3.24,8.167,2.889Z"
+										transform="translate(-6767.833 -5063.167)" fill="#fff" />
+						</g>
+					</svg>
+				</a>
+				
+							</div>
+		</div>
+	</div>
+</footer>
+<div class="popup-root hidden" id="popup-root">
+	<div class="popup-root__inner">
+		<a href="about:blank" class="btn close popup-root__inner__close-button"></a>
+		<div class="popup-root__inner__iframe-container">
+			<iframe src="about:blank" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+<link rel='stylesheet' id='block-acf-home-hero-css'  href='../wp-content/themes/TradeCast/blocks/homeHero/homeHero9f31.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='block-acf-video-logo-slider-css'  href='../wp-content/themes/TradeCast/blocks/videoLogoSlider/videoLogoSlider9f31.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='block-acf-text-columns-with-video-css'  href='../wp-content/themes/TradeCast/blocks/textColumnsWithVideo/textColumnsWithVideo9f31.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='block-acf-posts-slider-css'  href='../wp-content/themes/TradeCast/blocks/postsSlider/postsSlider9f31.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='block-acf-call-to-action-css'  href='../wp-content/themes/TradeCast/blocks/callToAction/callToAction9f31.css?ver=5.7.2' type='text/css' media='all' />
+<script type='text/javascript' id='lazy-js-js-extra'>
+/* <![CDATA[ */
+var ajax_posts = {"ajaxurl":"https:\/\/tradecast.tv\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/data.js' id='lazy-js-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/helpers.js' id='helpers-js-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/plugins/anime.min.js' id='anime-js-script-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/plugins/inview.min.js' id='inview-js-script-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/animations.js' id='animation-js-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/plugins/slick.min.js' id='slick-js-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/video.js' id='video-js-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/popup.js' id='popup-js-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/parallax.js' id='parallax-js-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/assets/js/main.js' id='main-js-js'></script>
+<script type='text/javascript' src='../wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='../wp-includes/js/dist/dom-ready.minab1b.js?ver=eb19f7980f0268577acb5c2da5457de3' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='../wp-includes/js/dist/hooks.minf521.js?ver=50e23bed88bcb9e6e14023e9961698c1' id='wp-hooks-js'></script>
+<script type='text/javascript' src='../wp-includes/js/dist/i18n.min87d6.js?ver=db9a9a37da262883343e941c3731bc67' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2021-06-16 08:10:36+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type='text/javascript' src='../wp-includes/js/dist/a11y.min9559.js?ver=5e00de7a43b31bbb9eaf685f089a3903' id='wp-a11y-js'></script>
+<script type='text/javascript' defer='defer' src='../wp-content/plugins/gravityforms/js/placeholders.jquery.min2a47.js?ver=2.5.6' id='gform_placeholder-js'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min9f31.js?ver=5.7.2' id='wp-embed-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/blocks/videoLogoSlider/videoLogoSlider9f31.js?ver=5.7.2' id='block-acf-video-logo-slider-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/blocks/textColumnsWithVideo/textColumnsWithVideo9f31.js?ver=5.7.2' id='block-acf-text-columns-with-video-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/blocks/postsSlider/postsSlider9f31.js?ver=5.7.2' id='block-acf-posts-slider-js'></script>
+<script type='text/javascript' src='../wp-content/themes/TradeCast/blocks/callToAction/callToAction9f31.js?ver=5.7.2' id='block-acf-call-to-action-js'></script>
+<script type='text/javascript'>
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+</script>
+</body>
+
+<!-- Mirrored from tradecast.tv/en/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Jul 2021 11:08:48 GMT -->
+</html>	
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: tradecast.tv @ 2021-07-04 11:06:28 by W3 Total Cache
+-->

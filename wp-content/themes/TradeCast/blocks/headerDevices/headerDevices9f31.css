@@ -1,0 +1,198 @@
+.block-header-devices {
+  margin-top: 50px;
+  padding: 200px 0 0 0;
+  margin-bottom: 150px;
+}
+@media only screen and (max-width: 968px) {
+  .block-header-devices {
+    margin-bottom: 80px;
+  }
+}
+.block-header-devices h1 {
+  font-size: 3.125rem;
+  margin-bottom: 27px;
+  line-height: 1.08;
+  font-family: Anodina;
+}
+.block-header-devices .block-devices-content-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 26px;
+  box-shadow: 20px 8px 60px 0 rgba(117, 0, 195, 0.7);
+  background: linear-gradient(146deg, rgba(26, 17, 31, 0) 15%, rgba(4, 0, 12, 0.9) 63%);
+  padding: 60px 100px;
+}
+.block-header-devices .block-devices-content-wrap .devices-inner-wrapper {
+  width: 60%;
+}
+.block-header-devices .block-devices-content-wrap .devices-inner-wrapper .devices-text {
+  width: 75%;
+}
+.block-header-devices .block-devices-content-wrap .block-devices-mockups {
+  width: calc(46% - 110px);
+  position: relative;
+  display: grid;
+}
+.block-header-devices .devices-logos {
+  margin-top: 68px;
+}
+.block-header-devices .devices-logos ul.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: -15px;
+}
+.block-header-devices .devices-logos ul.list li {
+  display: inline-block;
+  margin: 15px;
+}
+.block-header-devices .device-mockup-inner {
+  position: relative;
+  height: calc(100% + 257px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.block-header-devices .device-mockup-inner:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  left: -40px;
+  height: 92%;
+  width: 100%;
+  background-image: radial-gradient(rgba(255, 88, 40, 0.68) 1px, transparent 0);
+  background-size: 11px 11px;
+  background-position: -19px -19px;
+}
+.block-header-devices .device-mockup-inner .device-macbook {
+  position: absolute;
+  left: -9%;
+  bottom: -15%;
+  z-index: 2;
+}
+.block-header-devices .device-mockup-inner .device-macbook img {
+  position: relative;
+  z-index: 2;
+}
+.block-header-devices .device-mockup-inner .device-macbook .device-site {
+  z-index: 1;
+  position: absolute;
+  width: 65.4%;
+  height: 67.7%;
+  left: 16.9%;
+  top: 6.1%;
+  /*background-color: #fff;*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+.block-header-devices .device-mockup-inner .device-iphone {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.block-header-devices .device-mockup-inner .device-iphone img {
+  position: relative;
+  z-index: 2;
+}
+.block-header-devices .device-mockup-inner .device-iphone .device-site {
+  z-index: 1;
+  position: absolute;
+  width: calc(100% - 33px);
+  height: calc(100% - 31px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background-color: #fff;*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+
+@media only screen and (max-width: 968px) {
+  .block-header-devices .block-devices-content-wrap {
+    padding: 60px 50px;
+  }
+  .block-header-devices .device-mockup-inner {
+    position: relative;
+    top: unset;
+    left: 35px;
+    height: auto;
+    transform: translateY(0);
+  }
+  .block-header-devices .device-mockup-inner:before {
+    height: 50%;
+    left: -25px;
+    bottom: 23%;
+  }
+  .block-header-devices .device-mockup-inner .device-iphone {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    left: -7%;
+  }
+  .block-header-devices .device-mockup-inner .device-iphone:before {
+    width: calc(100% - 14%);
+    height: calc(100% - 7%);
+  }
+  .block-header-devices .device-mockup-inner .device-iphone img {
+    height: auto;
+    width: 100%;
+  }
+  .block-header-devices .device-mockup-inner .device-macbook {
+    bottom: 0;
+  }
+  .block-header-devices .device-mockup-inner .device-macbook img {
+    width: 100%;
+  }
+  .block-header-devices .block-devices-content-wrap .block-devices-mockups {
+    width: 100%;
+    order: 1;
+    margin-top: -40px;
+  }
+  .block-header-devices .block-devices-content-wrap .devices-inner-wrapper {
+    margin-top: 50px;
+    width: 100%;
+    order: 2;
+  }
+  .block-header-devices .block-devices-content-wrap .devices-inner-wrapper .devices-text {
+    width: 100%;
+  }
+  .block-header-devices .block-devices-content-wrap .devices-inner-wrapper .devices-text h1 {
+    font-size: 2.375rem;
+  }
+  .block-header-devices .block-devices-content-wrap .devices-inner-wrapper .devices-text h1 br {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .block-header-devices .device-mockup-inner {
+    left: 0;
+  }
+  .block-header-devices .device-mockup-inner:before {
+    display: none;
+  }
+  .block-header-devices .device-mockup-inner .device-iphone {
+    display: none;
+  }
+  .block-header-devices .device-mockup-inner .device-macbook {
+    left: -6%;
+    width: 113%;
+    position: relative;
+  }
+  .block-header-devices .block-devices-content-wrap {
+    padding: 60px 30px;
+  }
+  .block-header-devices .block-devices-content-wrap .block-devices-mockups {
+    margin-top: -30%;
+  }
+  .block-header-devices .block-devices-content-wrap .devices-inner-wrapper {
+    margin-top: -15px;
+  }
+}
+
+/*# sourceMappingURL=headerDevices.css.map */

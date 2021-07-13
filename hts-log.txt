@@ -1,0 +1,145 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 04 Jul 2021 16:36:26 at https://tradecast.tv/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://tradecast.tv/ -O1 "e:\aaaaaaaaaa" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:36:27	Warning: 	Found for https://tradecast.tv/
+16:36:27	Warning: 	File has moved from https://tradecast.tv/ to https://tradecast.tv/en/
+16:38:48	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://tradecast.tv/en/)
+16:38:58	Warning: 	Retry after error -4 (Connect Error) at link https://www.google.com/recaptcha/api.js?hl=en&ver=5.7.2 (from https://tradecast.tv/en/)
+16:40:45	Warning: 	Moved Permanently for https://tradecast.tv/en/en/products/
+16:40:45	Warning: 	File has moved from https://tradecast.tv/en/en/products/ to https://tradecast.tv/en/products/
+16:41:42	Warning: 	Moved Permanently for https://tradecast.tv/?p=979
+16:41:42	Warning: 	File has moved from https://tradecast.tv/?p=979 to https://tradecast.tv/en/your-platform/
+16:41:50	Warning: 	Moved Permanently for https://tradecast.tv/?p=981
+16:41:50	Warning: 	File has moved from https://tradecast.tv/?p=981 to https://tradecast.tv/en/our-technology/
+16:42:35	Warning: 	Moved Permanently for https://tradecast.tv/?p=990
+16:42:35	Warning: 	File has moved from https://tradecast.tv/?p=990 to https://tradecast.tv/en/build-together/
+16:42:57	Warning: 	Moved Permanently for https://tradecast.tv/tradecast-content-productions/
+16:42:57	Warning: 	File has moved from https://tradecast.tv/tradecast-content-productions/ to https://tradecast.tv/en/tradecast-content-productions/
+16:44:19	Warning: 	Moved Permanently for https://tradecast.tv/?p=975
+16:44:19	Warning: 	File has moved from https://tradecast.tv/?p=975 to https://tradecast.tv/en/cases/
+16:45:24	Warning: 	Moved Permanently for https://tradecast.tv/?p=977
+16:45:24	Warning: 	File has moved from https://tradecast.tv/?p=977 to https://tradecast.tv/en/contact/
+16:46:58	Warning: 	Moved Permanently for https://tradecast.tv/?p=988
+16:46:58	Warning: 	File has moved from https://tradecast.tv/?p=988 to https://tradecast.tv/en/products/
+16:47:00	Warning: 	Moved Permanently for https://tradecast.tv/?p=984
+16:47:00	Warning: 	File has moved from https://tradecast.tv/?p=984 to https://tradecast.tv/en/about-tradecast/
+16:47:02	Warning: 	Moved Permanently for https://tradecast.tv/?p=994
+16:47:02	Warning: 	File has moved from https://tradecast.tv/?p=994 to https://tradecast.tv/en/careers/
+16:48:09	Warning: 	Moved Permanently for https://tradecast.tv/?p=1432
+16:48:09	Warning: 	File has moved from https://tradecast.tv/?p=1432 to https://tradecast.tv/en/privacy-policy/
+16:48:11	Warning: 	Moved Permanently for https://tradecast.tv/?p=971
+16:48:11	Warning: 	File has moved from https://tradecast.tv/?p=971 to https://tradecast.tv/en/cookie-policy/
+16:48:14	Warning: 	Moved Permanently for https://tradecast.tv/?p=1434
+16:48:14	Warning: 	File has moved from https://tradecast.tv/?p=1434 to https://tradecast.tv/en/general-terms-and-conditions/
+16:48:14	Warning: 	Moved Permanently for https://tradecast.tv/nl/jouw-platform/
+16:48:14	Warning: 	File has moved from https://tradecast.tv/nl/jouw-platform/ to https://tradecast.tv/jouw-platform/
+16:48:14	Warning: 	Moved Permanently for https://tradecast.tv/?p=70
+16:48:14	Warning: 	File has moved from https://tradecast.tv/?p=70 to https://tradecast.tv/jouw-platform/
+16:48:17	Warning: 	Moved Permanently for https://tradecast.tv/nl/contact/
+16:48:17	Warning: 	File has moved from https://tradecast.tv/nl/contact/ to https://tradecast.tv/contact/
+16:48:17	Warning: 	Moved Permanently for https://tradecast.tv/?p=102
+16:48:17	Warning: 	File has moved from https://tradecast.tv/?p=102 to https://tradecast.tv/contact/
+16:48:17	Warning: 	Moved Permanently for https://tradecast.tv/?p=72
+16:48:17	Warning: 	File has moved from https://tradecast.tv/?p=72 to https://tradecast.tv/onze-technologie/
+16:48:19	Warning: 	Moved Permanently for https://tradecast.tv/?p=2094
+16:48:19	Warning: 	File has moved from https://tradecast.tv/?p=2094 to https://tradecast.tv/en/tradecast-for-developers/
+16:48:19	Warning: 	Moved Permanently for https://tradecast.tv/?p=74
+16:48:19	Warning: 	File has moved from https://tradecast.tv/?p=74 to https://tradecast.tv/samen-bouwen/
+16:48:21	Warning: 	Moved Permanently for https://tradecast.tv/?p=2122
+16:48:21	Warning: 	File has moved from https://tradecast.tv/?p=2122 to https://tradecast.tv/en/tradecast-content-productions/
+16:48:22	Error: 	"Not Found" (404) at link https://tradecast.tv/wp-content/themes/TradeCast/blocks/timeLine/dots-timeline.png (from https://tradecast.tv/wp-content/themes/TradeCast/blocks/timeLine/timeLine.css?ver=5.7.2)
+16:48:22	Warning: 	Moved Permanently for https://tradecast.tv/nl/cases/
+16:48:22	Warning: 	File has moved from https://tradecast.tv/nl/cases/ to https://tradecast.tv/cases/
+16:48:22	Warning: 	Moved Permanently for https://tradecast.tv/?p=76
+16:48:22	Warning: 	File has moved from https://tradecast.tv/?p=76 to https://tradecast.tv/cases/
+16:48:37	Warning: 	Moved Permanently for https://tradecast.tv/?p=1113
+16:48:37	Warning: 	File has moved from https://tradecast.tv/?p=1113 to https://tradecast.tv/en/cases/johnnys-world/
+16:48:37	Warning: 	Moved Permanently for https://tradecast.tv/?p=1141
+16:48:37	Warning: 	File has moved from https://tradecast.tv/?p=1141 to https://tradecast.tv/en/cases/deltion-tv/
+16:48:37	Warning: 	Moved Permanently for https://tradecast.tv/?p=1191
+16:48:37	Warning: 	File has moved from https://tradecast.tv/?p=1191 to https://tradecast.tv/en/cases/defensie-tv/
+16:48:37	Warning: 	Moved Permanently for https://tradecast.tv/?p=1192
+16:48:37	Warning: 	File has moved from https://tradecast.tv/?p=1192 to https://tradecast.tv/en/cases/human-horse-academy/
+16:48:37	Warning: 	Moved Permanently for https://tradecast.tv/?p=1193
+16:48:37	Warning: 	File has moved from https://tradecast.tv/?p=1193 to https://tradecast.tv/en/cases/all-guitar-network/
+16:48:46	Warning: 	Moved Permanently for https://tradecast.tv/?p=2606
+16:48:46	Warning: 	File has moved from https://tradecast.tv/?p=2606 to https://tradecast.tv/en/2021/06/22/new-features-drm-and-device-restriction/
+16:48:46	Warning: 	Moved Permanently for https://tradecast.tv/?p=1341
+16:48:46	Warning: 	File has moved from https://tradecast.tv/?p=1341 to https://tradecast.tv/en/2021/05/19/meet-tradecast/
+16:48:46	Warning: 	Moved Permanently for https://tradecast.tv/?p=1342
+16:48:46	Warning: 	File has moved from https://tradecast.tv/?p=1342 to https://tradecast.tv/en/2021/05/19/the-tradecast-engine/
+16:48:46	Warning: 	Moved Permanently for https://tradecast.tv/?p=1343
+16:48:46	Warning: 	File has moved from https://tradecast.tv/?p=1343 to https://tradecast.tv/en/2021/05/19/tradecast-agency-support-every-step-of-the-way/
+16:48:46	Warning: 	Moved Permanently for https://tradecast.tv/?p=82
+16:48:46	Warning: 	File has moved from https://tradecast.tv/?p=82 to https://tradecast.tv/producten/
+16:48:46	Warning: 	Moved Permanently for https://tradecast.tv/?p=2682
+16:48:46	Warning: 	File has moved from https://tradecast.tv/?p=2682 to https://tradecast.tv/over-tradecast/
+16:48:46	Warning: 	Moved Permanently for https://tradecast.tv/?p=334
+16:48:46	Warning: 	File has moved from https://tradecast.tv/?p=334 to https://tradecast.tv/vacatures/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=2578
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=2578 to https://tradecast.tv/en/careers/art-director/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/vacatures/art-director/
+16:48:56	Warning: 	File has moved from https://tradecast.tv/vacatures/art-director/ to https://tradecast.tv/en/careers/art-director/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=2468
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=2468 to https://tradecast.tv/en/careers/senior-technisch-projectmanager/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/careers/senior-technisch-projectmanager/
+16:48:56	Warning: 	File has moved from https://tradecast.tv/careers/senior-technisch-projectmanager/ to https://tradecast.tv/vacatures/senior-technisch-projectmanager/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=2471
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=2471 to https://tradecast.tv/en/careers/backend-developer-node-js/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=1413
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=1413 to https://tradecast.tv/en/careers/frontend-developer/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/nl/privacyverklaring/
+16:48:56	Warning: 	File has moved from https://tradecast.tv/nl/privacyverklaring/ to https://tradecast.tv/privacyverklaring/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=381
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=381 to https://tradecast.tv/privacyverklaring/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/nl/cookiebeleid/
+16:48:56	Warning: 	File has moved from https://tradecast.tv/nl/cookiebeleid/ to https://tradecast.tv/cookiebeleid/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=383
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=383 to https://tradecast.tv/cookiebeleid/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/nl/algemene-voorwaarden/
+16:48:56	Warning: 	File has moved from https://tradecast.tv/nl/algemene-voorwaarden/ to https://tradecast.tv/algemene-voorwaarden/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=1421
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=1421 to https://tradecast.tv/algemene-voorwaarden/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=1604
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=1604 to https://tradecast.tv/tradecast-voor-developers/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=1595
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=1595 to https://tradecast.tv/tradecast-contentproductie/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=473
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=473 to https://tradecast.tv/cases/johnnys-world/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=472
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=472 to https://tradecast.tv/cases/deltion-tv/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=471
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=471 to https://tradecast.tv/cases/defensie-tv/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=470
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=470 to https://tradecast.tv/cases/human-and-horse-academy/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=469
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=469 to https://tradecast.tv/cases/all-guitar-network/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=2601
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=2601 to https://tradecast.tv/2021/06/22/nieuwe-features-drm-en-apparaatbeperking/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=894
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=894 to https://tradecast.tv/2021/05/19/maak-kennis-met-tradecast/
+16:48:56	Error: 	"Not Found" (404) at link https://tradecast.tv/tradecast-content-productie/ (from https://tradecast.tv/2021/05/19/maak-kennis-met-tradecast/)
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/nl/2021/05/19/de-tradecast-engine/
+16:48:56	Warning: 	File has moved from https://tradecast.tv/nl/2021/05/19/de-tradecast-engine/ to https://tradecast.tv/2021/05/19/de-tradecast-engine/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=893
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=893 to https://tradecast.tv/2021/05/19/de-tradecast-engine/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/nl/2021/05/19/tradecast-agency-ondersteuning-in-elke-fase/
+16:48:56	Warning: 	File has moved from https://tradecast.tv/nl/2021/05/19/tradecast-agency-ondersteuning-in-elke-fase/ to https://tradecast.tv/2021/05/19/tradecast-agency-ondersteuning-in-elke-fase/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=892
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=892 to https://tradecast.tv/2021/05/19/tradecast-agency-ondersteuning-in-elke-fase/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=2577
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=2577 to https://tradecast.tv/vacatures/graphic-designer/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=2467
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=2467 to https://tradecast.tv/vacatures/senior-technisch-projectmanager/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=2469
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=2469 to https://tradecast.tv/vacatures/backend-developer-node-js/
+16:48:56	Warning: 	Moved Permanently for https://tradecast.tv/?p=486
+16:48:56	Warning: 	File has moved from https://tradecast.tv/?p=486 to https://tradecast.tv/vacatures/frontend-developer/
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 30 seconds : 499 links scanned, 429 files written (126468986 bytes overall) [123925953 bytes received at 165234 bytes/sec], 4484147 bytes transferred using HTTP compression in 316 files, ratio 36%, 12.7 requests per connection
+(3 errors, 131 warnings, 0 messages)

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Anodina Extra';
+    src: url('Anodina-ExtraBold.woff2') format('woff2'),
+        url('Anodina-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anodina';
+    src: url('Anodina-Regular.woff2') format('woff2'),
+        url('Anodina-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anodina';
+    src: url('Anodina-Bold.woff2') format('woff2'),
+        url('Anodina-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anodina Extra';
+    src: url('Anodina-ExtraLight.woff2') format('woff2'),
+        url('Anodina-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anodina';
+    src: url('Anodina-Light.woff2') format('woff2'),
+        url('Anodina-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
